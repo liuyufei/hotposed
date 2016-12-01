@@ -14,7 +14,9 @@ Hotposed itself is a Xposed module, you should install it under the Xposed frame
 
 ### 2. Write a Hotposed plugin (An android app project) which is really easy and install the plugin to the phone
 
-The Hotposed plugin is a normal Android application, it contains the hook logic. The the plugin must have a entrance class which will write into the Hotposed config file and the class should implements the ```IHotposedPlugin``` interface. An example of the class is follow:
+The Hotposed plugin is a normal Android application, it contains the hook logic. The plugin must have a entrance class which will be written into the Hotposed config file and the class should implements the ```IHotposedPlugin``` interface. 
+
+An example of the class :
 
 ```
 public class Test implements IHotposedPlugin {
