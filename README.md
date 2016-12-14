@@ -75,7 +75,7 @@ com.huawei.wallet:com.keen.hotposedpluginexample:com.keen.hotposedpluginexample.
 ===============================================
 ```
 
-Each line of the config file is a plugin configuration, the line contains four items spilted by symble ":"
+Each line of the config file is a plugin configuration, the line contains four items spilted by symbol ":"
 
 **Item[0]** : The package name of the application which you want to hook. 
 
