@@ -67,9 +67,9 @@ An example of the plugin app is here [hotposed-plugin](https://github.com/liuyuf
 What a Hotposed configuration file looks like :
 
 ```
-File : Hotposed.config
+File : hotposed.config
 ===============================================
-# Hotposed config file
+# hotposed config file
 
 com.huawei.wallet:com.keen.hotposedpluginexample:com.keen.hotposedpluginexample.Test:on
 ===============================================
@@ -88,7 +88,7 @@ Each line of the config file is a plugin configuration, the line contains four i
 Push the config file to the correct dir:
 
 ```
-adb push Hotposed.config /sdcard/hotposed/
+adb push hotposed.config /sdcard/hotposed/
 ```
 
 ### 4. Restart the application you want to hook and see the changes
